@@ -1,27 +1,3 @@
-/*
-@font-face {
-  font-family: "Ostia Antica";
-  font-weight: normal;
-  src: url("fonts/Ostia_Antica_WEB-Regular.woff2") format("woff2"), url("fonts/Ostia_Antica_WEB-Regular.woff") format("woff"), url("fonts/OstiaAntica-Regular.otf") format("opentype"); }
-@font-face {
-  font-family: "Ostia Antica Italic";
-  font-weight: normal;
-  font-style: italic;
-  src: url("fonts/Ostia_Antica_WEB-Italic.woff2") format("woff2"), url("fonts/Ostia_Antica_WEB-Italic.woff") format("woff"), url(fonts/OstiaAntica-Italic.otf) format("opentype"); }
-@font-face {
-  font-family: "Ostia Antica Light";
-  font-weight: 300;
-  font-style: normal;
-  src: url("fonts/Ostia_Antica_WEB-Light.woff2") format("woff2"), url("fonts/Ostia_Antica_WEB-Light.woff") format("woff"), url("fonts/OstiaAntica-Light.otf") format("opentype"); }
-@font-face {
-  font-family: "Ostia Antica LightItalic";
-  font-weight: 300;
-  font-style: normal;
-  src: url("fonts/Ostia_Antica_WEB-Light_Italic.woff2") format("woff2"), url("fonts/Ostia_Antica_WEB-Light_Italic.woff") format("woff"), url(fonts/OstiaAntica-LightItalic.otf) format("opentype"); }
-.font-medium,
-.font-bold {
-  font-weight: normal; }
-  */
 
 html:not(.embedded) {
   background: #151515; }
@@ -29,7 +5,6 @@ html:not(.embedded) {
 html, body {
   background: #151515 url("") top left;
   background-size: 100% auto;
-  /*font-family: "Ostia Antica", sans-serif;*/
   line-height: 1.75;
   color: #ede2d5; }
   @media (min-width: 768px) {
@@ -44,8 +19,7 @@ html, body {
 .tenant-injected-html p {
   text-align: center; }
 .tenant-injected-html a {
-  color: #EFB431 !important;
-  font-family: "Ostia Antica LightItalic", sans-serif !important;
+  color: #EFB431 !important
   text-decoration: none !important; }
 
 form {
@@ -55,7 +29,6 @@ form {
   form label, form div {
     color: #ede2d5 !important; }
   form a {
-    font-family: "Ostia Antica LightItalic", sans-serif !important;
     color: #fc63a3 !important;
     text-decoration: none; }
 
@@ -103,7 +76,7 @@ h2 + .tenant-injected-html + div > div {
         color: #ffffff !important;
         font-size: 24px !important; }
     #app > div > div > div:nth-child(2) > div button:hover > div > div:not(.parallax-content) span, #app > div > div > div:nth-child(2) > div button:hover > button span, #app > div > div > div:nth-child(2) > div a:hover > div > div:not(.parallax-content) span, #app > div > div > div:nth-child(2) > div a:hover > button span {
-      font-family: icomoon !important; }
+}
     @media (min-width: 1024px) {
       #app > div > div > div:nth-child(2) > div:first-child button {
         border: 5px solid #1a243b !important;
@@ -114,7 +87,7 @@ h2 + .tenant-injected-html + div > div {
         text-transform: capitalize !important; }
         #app > div > div > div:nth-child(2) > div:first-child button:hover {
           background: #febc2c !important;
-          font-family: "Ostia Antica LightItalic", sans-serif !important; } }
+         } }
   #app > div > div > div:nth-child(2)::before {
     display: block;
     top: 0;
@@ -137,7 +110,6 @@ h2 + .tenant-injected-html + div > div {
 
 button, a {
   border-radius: 0 !important;
-  font-family: "Ostia Antica", sans-serif !important;
   height: auto !important;
   box-shadow: none !important;
   line-height: 1.75 !important;
@@ -155,7 +127,7 @@ button, a {
     padding: 0.25rem 1rem !important;
     box-shadow: none !important;
     line-height: 1.75 !important;
-    font-family: "Ostia Antica", sans-serif !important; }
+}
     button > div > div:not(.parallax-content) span,
     button > button span, a > div > div:not(.parallax-content) span,
     a > button span {
@@ -171,11 +143,11 @@ button, a {
     button > div > div:not(.parallax-content) span:not(.icon-*),
     button > button span:not(.icon-*), a > div > div:not(.parallax-content) span:not(.icon-*),
     a > button span:not(.icon-*) {
-      font-family: "Ostia Antica", sans-serif !important; }
+     }
     button > div > div:not(.parallax-content):hover,
     button > button:hover, a > div > div:not(.parallax-content):hover,
     a > button:hover {
-      font-family: "Ostia Antica LightItalic", sans-serif !important; }
+       }
   button:hover > div > div:not(.parallax-content),
   button:hover > button, a:hover > div > div:not(.parallax-content),
   a:hover > button {
@@ -187,11 +159,10 @@ button, a {
     button:hover > div > div:not(.parallax-content) span:not(.icon-*),
     button:hover > button span:not(.icon-*), a:hover > div > div:not(.parallax-content) span:not(.icon-*),
     a:hover > button span:not(.icon-*) {
-      font-family: "Ostia Antica Italic", sans-serif !important; }
+   }
 
 button[disabled], div[data-reactroot] > div > div > div > div > div + div > p + div > button {
   border-radius: 0 !important;
-  font-family: "Ostia Antica", sans-serif !important;
   height: auto !important;
   box-shadow: none !important;
   line-height: 1.75 !important;
@@ -230,7 +201,6 @@ div[data-iframe-height] > div {
     color: #1a243b !important; }
   div[data-iframe-height] > div > div > div > div h2 {
     font-size: 2rem !important;
-    font-family: "Ostia Antica LightItalic", sans-serif !important;
     color: #1a243b !important; }
 
 #app > div > div > div + div + div + div > div + div > div > div > div {
@@ -260,7 +230,6 @@ div[data-radium] > div > div.tenant-injected-html + div > div:first-child {
     border-bottom: 2px solid #0f32c9 !important;
     padding: 0 !important;
     font-size: 0.9rem !important;
-    font-family: "Ostia Antica", sans-serif !important;
     font-style: normal !important;
     color: #fc63a3 !important;
     border-color: #fc63a3 !important; }
@@ -283,7 +252,7 @@ div[data-radium] > div > div.tenant-injected-html + div > div:first-child {
       background: #ede2d5 !important; }
       div[data-radium] > div > div.tenant-injected-html + div > div:first-child button:hover span {
         color: #1a243b !important;
-        font-family: "Ostia Antica Italic", sans-serif !important; }
+       }
   div[data-radium] > div > div.tenant-injected-html + div > div:first-child label {
     color: #febc2c !important; }
   div[data-radium] > div > div.tenant-injected-html + div > div:first-child > div:first-child {
@@ -298,7 +267,6 @@ div[data-radium] > div > div.tenant-injected-html + div > div:first-child {
     font-size: 1.2rem !important;
     max-width: 300px;
     color: #ede2d5 !important;
-    font-family: "Ostia Antica LightItalic", sans-serif;
     margin-top: 2rem; }
 
 .EventList--EventListItem {
@@ -325,7 +293,6 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html p {
   text-align: left; }
 div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div > a,
 div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div > span > a {
-  font-family: "Ostia Antica LightItalic", sans-serif !important;
   text-decoration: none !important; }
 
 #app > div > div > div:nth-child(4) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4),
@@ -342,7 +309,7 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
   padding: 0 !important; }
   .Films--film_container a:hover > div > div span {
     color: #1a243b !important;
-    font-family: "Ostia Antica Light", sans-serif !important; }
+   }
 
 .Films--film_filter_editor div {
   border-radius: 0 !important; }
@@ -367,7 +334,6 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
     border-bottom: 2px solid #0f32c9 !important;
     padding: 0 !important;
     font-size: 0.9rem !important;
-    font-family: "Ostia Antica", sans-serif !important;
     font-style: normal !important;
     color: #febc2c !important;
     border-color: #febc2c !important;
@@ -383,11 +349,9 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
     background-color: transparent !important; }
     .Films--film_container a > div:not(.parallax) h1 {
       color: #0f32c9 !important;
-      font-family: "Ostia Antica LightItalic", sans-serif;
       font-weight: normal; }
     .Films--film_container a > div:not(.parallax) h2 {
       color: #fc63a3 !important;
-      font-family: "Ostia Antica Light", sans-serif;
       font-weight: normal; }
     .Films--film_container a > div:not(.parallax) .Tag {
       background: transparent !important;
@@ -398,7 +362,6 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
       border-bottom: 2px solid #0f32c9 !important;
       padding: 0 !important;
       font-size: 0.9rem !important;
-      font-family: "Ostia Antica", sans-serif !important;
       font-style: normal !important; }
 .Films--film_container .parallax .parallax-front {
   background: #febc2c !important;
@@ -430,10 +393,8 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
   border-bottom: 2px solid #0f32c9 !important;
   padding: 0 !important;
   font-size: 0.9rem !important;
-  font-family: "Ostia Antica", sans-serif !important;
   font-style: normal !important; }
 .FilmCard h2 {
-  font-family: "Ostia Antica LightItalic", sans-serif !important;
   color: #fc63a3 !important;
   font-weight: normal !important; }
 .FilmCard .tenant-injected-html p {
@@ -446,7 +407,7 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
   border: 5px solid #1a243b !important; }
   .FilmCard .tenant-injected-html + div + div a {
     color: #0f32c9 !important;
-    font-family: "Ostia Antica LightItalic", sans-serif !important; }
+  }
 .FilmCard button[type=button] {
   background: #fc63a3 !important;
   color: #1a243b !important;
@@ -473,10 +434,10 @@ div[data-radium] > div > div > div > div > div.tenant-injected-html + div > div 
     color: #1a243b !important; }
   .FilmCard div > div ul li div:first-child {
     color: #0f32c9 !important;
-    font-family: "Ostia Antica LightItalic", sans-serif; }
+  }
 .FilmCard + div > div > a,
 .FilmCard + div > div > span > a {
-  font-family: "Ostia Antica LightItalic", sans-serif !important;
+
   text-decoration: none !important; }
 
 .eventive__ticket-button__container .eventive__wishlist-button svg {
@@ -560,7 +521,6 @@ div[role="menu"] a > div > div:not(.parallax-content) {
 #ticket-bundles {
   text-align: left !important;
   font-weight: normal !important;
-  font-family: "Ostia Antica LightItalic", sans-serif !important;
   font-size: 2rem !important; }
 
 #passes + .tenant-injected-html,
@@ -597,7 +557,6 @@ div[role="menu"] a > div > div:not(.parallax-content) {
       #passes + .tenant-injected-html + div > div .tenant-injected-html p,
       #ticket-bundles + .tenant-injected-html + div > div .tenant-injected-html p {
         text-align: left !important;
-        font-family: "Ostia Antica Light", sans-serif;
         font-size: 0.8rem !important; }
       #passes + .tenant-injected-html + div > div .tenant-injected-html + div,
       #ticket-bundles + .tenant-injected-html + div > div .tenant-injected-html + div {
@@ -626,7 +585,6 @@ div[role="menu"] a > div > div:not(.parallax-content) {
   .Eventive--passes > div:first-child a {
     color: #fc63a3 !important;
     text-decoration: none !important;
-    font-family: "Ostia Antica LightItalic", sans-serif !important;
     font-weight: normal !important; }
 
 .Eventive--passes > div + div > div > div {
@@ -664,7 +622,6 @@ div[role="menu"] a > div > div:not(.parallax-content) {
       .Eventive--passes > div + div > div > div button:hover span {
         color: #ffffff !important; }
         .Eventive--passes > div + div > div > div button:hover span.icon-qrcode {
-          font-family: icomoon !important;
           line-height: 1 !important; }
     .Eventive--passes > div + div > div > div button > div > div {
       background: transparent !important;
